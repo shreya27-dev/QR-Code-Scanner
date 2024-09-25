@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(205, 217, 253);
+  background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
 .heading {
   font-weight: bold;
   font-size: 25px;
-  color: rgb(12, 45, 102);
+  color: hsl(218, 44%, 22%);
   margin-bottom: 15px;
   padding: 8px;
 }
@@ -35,5 +35,20 @@ body {
   padding: 6px;
   font-size: 15px;
   font-weight: 500;
-  color: rgb(165, 165, 165);
+  color: hsla(216, 15%, 48%, 0.773);
+}
+
+@media (max-width: 480px) {
+  .outer-container {
+    padding: 1rem;
+    max-width: 90%;
+  }
+
+  .heading {
+    font-size: 1.1rem;
+  }
+
+  .paragraph {
+    font-size: 0.9rem;
+  }
 }
